@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dict.css">
+    <script src="dict.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+   <h1>DICTIONARY</h1>
+      
+
+   <form action="javascript:void(0)">
+
+    <input type="text"  onchange="enter()" id="abcdefgh" value="yes"  >
+   </form>
+<button onclick="wrd()">Submit</button>
+
+   <div class="box2">
+  <h2 id="Word">Stop</h2>
+  <h3  id="Phonetics">Phonetics </h3>
+ 
+  <p id="Definition" style="background-color: grey; border-radius: 5px;"> weadfawdrawfas efawfarfasfaefefaes</p>
+
+   </div>
+
+   <div class="audio" id="cont">
+    <audio controls id="audio">
+        <source  id="sound" type="audio/mp3">
+        
+      Your browser does not support the audio element.
+      </audio>
+      <h3 id="unavailable" class="unavailable">Audio Not Available</h3>
+   </div>
+    </div>
+</body>
+</html>
