@@ -7,22 +7,22 @@
     <script src="dict.js"></script>
     <title>Document</title>
 </head>
-<body><h1 class="ss1">Welcome To Dictionary 🌎</h1>
+<body style="background-color: black;"><h1 class="ss1">Welcome To Dictionary 🌎</h1>
     <div class="box" id="bx">
    <h1>Enter a Word</h1>
       
 
    <form action="javascript:void(0)">
 
-    <input type="text"  onchange="enter()" id="abcdefgh" value="Word"  >
+    <input type="text"  onchange="enter()" id="abcdefgh" value="Word" style="color: black;border:2px solid black" >
    </form>
 <button onclick="wrd()">Submit</button>
 
    <div class="box2">
   <h2 id="Word">Word</h2>
-  <h3  id="Phonetics">Phonetics </h3>
+  <h3  id="Phonetics" style="color: white;">Phonetics </h3>
  
-  <p id="Definition" style="background-color: grey; border-radius: 5px; color:white;width: 500px;"> Definition</p>
+  <p id="Definition" style="background-color: rgb(0, 0, 0); border-radius: 5px; color:white;width: 500px;"> Definition</p>
 
    </div>
 
@@ -32,7 +32,7 @@
         
       Your browser does not support the audio element.
       </audio>
-      <h3 id="unavailable" class="unavailable" style="visibility: hidden;">Audio Not Available</h3>
+      <h3 id="unavailable" class="unavailable" style="visibility: hidden;color:white">Audio Not Available</h3>
    </div>
 
    
@@ -41,5 +41,7 @@
         <img src="white-caution-mark-warning-sign-icon-hd-png-701751695035289774trhefhu.png" width="40px" height="40px" alt="">
         <h1 id="message"></h1>
     </div>
+
+    
 </body>
 </html>
